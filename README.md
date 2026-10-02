@@ -45,6 +45,7 @@ pip install -e ".[dev]"
 
 python -m password_checker            # check a password
 python -m password_checker --offline  # skip the breach check
+python -m password_checker --json     # machine-readable output (exit code 1 = weak)
 pytest                                # run the tests
 ```
 
